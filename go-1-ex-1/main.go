@@ -13,7 +13,7 @@ func main() {
 	var yearOfBirth int = 2005
 	var numberOfSiblings int = 1
 	heightInMeters := 1.63
-	var zodiacSign = 'J'
+	var zodiacSign = '\u264D'
 	// Aufgabe
 
 	fmt.Printf("Vor- und Nachname: %s %s\n", firstName, lastName)

@@ -8,10 +8,8 @@ func main() {
 	fibs[2] = fibs[0] + fibs[1]
 	fibs[3] = fibs[1] + fibs[2]
 	fibs[4] = fibs[2] + fibs[3]
-	// TODO: correct up to index 4 using direct element access
 
-	fibs = append(fibs, fibs[3]+fibs[4]) // TODO: replace 0 with the next Fibonacci number
-	// TODO: compute three more Fibonacci numbers and append them
+	fibs = append(fibs, fibs[3]+fibs[4])
 	var newNumber int
 	newNumber = fibs[4] + fibs[5]
 	fibs = append(fibs, newNumber)
